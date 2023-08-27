@@ -26,4 +26,7 @@ Kafka brokers have logical seperate spaces that are called topics and consumer g
 
 4. So, how can we utilise kafka as a queue and pub-sub system when we want ?
 
-   If you want to treat it as a queue, then put all your consumers in one consumer group.
+   If you want to treat it as a queue, then put all your consumers in one consumer group. If you want to utilise it as a kafka pub-sub system
+   then put all your consumers in different consumer groups.
+
+   
